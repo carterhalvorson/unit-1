@@ -13,7 +13,7 @@ for (int i = 0; i <= 1000; i = i +1){
 
 String Str = "abc";
 
-if ( );{
+if (Str == "abc");{
 System.out.println("Correct");
 System.out.println(" Your prize is the friends you made along the way ");
 } 
