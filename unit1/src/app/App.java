@@ -5,10 +5,10 @@ package app;
 public class App {
     public static void main(String[] args) throws Exception {
 
-for (int i = 0; i <= 1000; i = i +1){
+for (int i = 0; i <= 1000; i = i +1 ){
     System.out.println("The count is " + i);
     
-
+System.out.println("Please Enter Password");
 }
 
 String Str = "abc";
@@ -16,9 +16,13 @@ String Str = "abc";
 if (Str == "abc");{
 System.out.println("Correct");
 System.out.println(" Your prize is the friends you made along the way ");
-} 
-else { System.out.println("Incorrect");
+}else{ System.out.println("Incorrect");
 System.out.println( "Try again");
-}
+
+
+
+
 
 }
+
+}}
