@@ -23,5 +23,19 @@ while (tries < 3 ){
         }
     }
 
+
+String line[] = {"Ditty", "Daisy", "Yoshi", "Toad", "Wario", "DK", "Luigi", "Peach", "Mario", "Waluigi"};
+
+System.out.println(line[2]);
+
+System.out.println(line[0]);
+
+line[4] = "Bowser";
+
+int numberOfPeopleInLine = line.length;
+
+for (int i = 0; i < line.length; i++){
+    System.out.println(line[i]);
+}
     }
 }
