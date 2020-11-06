@@ -4,46 +4,39 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+     helloWorld();
+     firstName();
+     middleName();
+     lastName();
+     isCool("Carter");
+     number(11);
 
+    }
+
+    public static void helloWorld(){
+        System.out.println("Hello world");
+    }
+    public static void firstName(){
+         System.out.println("Carter");
+    }
+    public static void middleName(){
+        System.out.println("Bennet");
+    }
+    public static void lastName(){
+        System.out.println("Halvorson");
+    }
+    public static void isCool(String name){
+System.out.println(name + " is cool");
+
+    }
+    public static void number(int number){
+    if ( number > 10){
+System.out.println(number + " is greater than 10");
+    }else {
+        System.out.println(number + " is less than 10");
+
+    }
+    }
     
-
-
-    Scanner input = new Scanner(System.in);
-
-    int targetNum = 33;
-    boolean isComplete = false;
-
-    while (isComplete == false) {
-         System.out.println("guess a number between 0 and 100");
-         int guess = input.nextInt();
-         input.nextLine();
-    if (guess == targetNum) {
-        System.out.println("Correct");
-        isComplete = true;
-    }
-    else if (guess < targetNum) {
-        System.out.println("Low");
-    }
-    else {
-        System.out.println("High");
-    }
-    }
-        }
     
-
-
-String line[] = {"Ditty", "Daisy", "Yoshi", "Toad", "Wario", "DK", "Luigi", "Peach", "Mario", "Waluigi"};
-
-System.out.println(line[2]);
-
-System.out.println(line[0]);
-
-line[4] = "Bowser";
-
-int numberOfPeopleInLine = line.length;
-
-for (int i = 0; i < line.length; i++){
-    System.out.println(line[i]);
-}
-    }
 }
