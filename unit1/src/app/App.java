@@ -10,7 +10,7 @@ public class App {
      lastName();
      isCool("Carter");
      number(11);
-
+multiply(4, 6, 2, 8);
     }
 
     public static void helloWorld(){
@@ -37,6 +37,11 @@ System.out.println(number + " is greater than 10");
 
     }
     }
+    public static void multiply(int num1,int num2,int num3,int num4){
+        System.out.println(num1 * num2 * num3 * num4 );
+
+    }
+    
     
     
 }
